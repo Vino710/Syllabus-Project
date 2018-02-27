@@ -1,0 +1,43 @@
+.button {
+    display: inline-block;
+    padding: 5px 100px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+   box-shadow: 0 9px #999;
+}
+.button:hover {background-color: blue}
+.button:active {
+    background-color: black;
+    box-shadow: 0 5px blue;
+    transform: translateY(2px);
+}
+.button:hover {
+        background-color:  orange;
+transform: rotate(1deg$$);
+}
+
+body
+{
+    background-image: url("skcet.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
+ul
+{
+    color:white;
+    text-decoration: none;
+    display: block;
+}
+
+ul a:hover
+{
+background-color:red;
+}
+
